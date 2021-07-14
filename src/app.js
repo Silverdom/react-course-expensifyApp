@@ -22,7 +22,7 @@ import "./styles/styles.scss";
 //import './playground/promises';
 
 const store = configureStore();
-
+console.log('test');
 store.subscribe(() => {
   console.log(store.getState());
 });
